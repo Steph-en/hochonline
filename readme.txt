@@ -1,7 +1,7 @@
 -----------------------
 # README
 -----------------------
-
+- A portfolio site for Hoch Online
 
 Credits:
 -----------------------
