@@ -200,8 +200,10 @@ body {
         3. Top-area
 --------------------------------------*/
 nav.navbar.bootsnav {
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: transparent;
     border-bottom: transparent;
+    z-index: 999;
 }
 
 .wrap-sticky nav.navbar.bootsnav.sticked {
