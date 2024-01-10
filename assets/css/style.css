@@ -503,14 +503,28 @@ nav.navbar.bootsnav .navbar-toggle i {
         6. Works 
 --------------------------------------*/
 .works {
-    padding: 90px 0 90px;
+    padding: 0px 0 0px;
 }
 
-.works-content {
+/* .works-content {
     margin-top: 73px;
+} */
+
+.works .containeer{
+    
 }
 
-.single-how-works {
+.section-header{
+    padding: 0;
+    margin: 0;
+}
+
+.section-header img{
+    display: flex;
+    justify-content: start;
+}
+
+/* .single-how-works {
     text-align: center;
     padding: 50px 42px;
     border-radius: 3px;
@@ -590,7 +604,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 .single-how-works:hover {
     box-shadow: 0 0px 10px rgba(71, 71, 71, .4);
     background: #ff545a;
-}
+} */
 
 /*-------------------------------------
         7. Explore
