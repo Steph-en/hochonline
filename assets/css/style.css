@@ -605,6 +605,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .single-explore-item {
+    min-height: 629px;
     background: #fff;
     border: 1px solid #edeff1;
     border-radius: 3px;
@@ -673,7 +674,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     right: 10px;
 }
 
-.single-explore-image-icon-box ul li {
+.single-explore-image-icon-box ul li a i {
     display: inline-block;
     width: 30px;
     height: 28px;
@@ -684,7 +685,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     color: #cbcccd;
 }
 
-.single-explore-image-icon-box ul li:hover i {
+.single-explore-image-icon-box ul li:hover a i {
     color: #267dff;
 }
 
