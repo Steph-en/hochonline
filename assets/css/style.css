@@ -326,6 +326,16 @@ nav.navbar.bootsnav .navbar-toggle i {
     height: 100vh;
     z-index: 1;
 }
+.welcome-hero.contact {
+    position: relative;
+    background: url(../images/buldings/future-starlight/1.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    /* height: 800px; */
+    height: 50vh;
+    z-index: 1;
+}
 
 .welcome-hero:before {
     position: absolute;
@@ -355,6 +365,25 @@ nav.navbar.bootsnav .navbar-toggle i {
     font-size: 20px;
     color: #fcfcfc;
     margin-top: 25px;
+}
+
+.contact .welcome-hero-txt {
+    padding-top: 10em;
+}
+
+.contact .welcome-hero-txt h2 {
+    font-size: 100px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    line-height: 10rem;
+}
+
+.contact .welcome-hero-txt p {
+    font-size: 20px;
+    color: #fcfcfc;
+    margin-top: 5px;
 }
 
 /*-------------------------------------
