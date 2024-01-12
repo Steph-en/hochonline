@@ -318,7 +318,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 --------------------------------------*/
 .welcome-hero {
     position: relative;
-    background: url(../images/welcome-hero/banner.jpg)no-repeat;
+    background: url(../images/buldings/future-starlight/1.jpg)no-repeat;
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -438,7 +438,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*-------------------------------------
         5. List-topuics
 --------------------------------------*/
-/* .list-topics-content {
+.list-topics-content {
     position: relative;
     top: -98px;
     z-index: 1;
@@ -469,11 +469,13 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .single-list-topics-content h2>a {
     margin: 13px 0;
-} */
+}
 
-/*.single-list-topics-content:last-child{margin-right: 0;}*/
+.single-list-topics-content:last-child {
+    margin-right: 0;
+}
 
-/* .single-list-topics-icon [class^="flaticon-"]:before,
+.single-list-topics-icon [class^="flaticon-"]:before,
 .single-list-topics-icon [class*=" flaticon-"]:before,
 .single-list-topics-icon [class^="flaticon-"]:after,
 .single-list-topics-icon [class*=" flaticon-"]:after {
@@ -497,21 +499,24 @@ nav.navbar.bootsnav .navbar-toggle i {
     color: #fff;
     background: #ff545a;
     box-shadow: 0 5px 10px rgba(71, 71, 71, .4);
-} */
+}
 
 /*-------------------------------------
         6. Works 
 --------------------------------------*/
 .works {
-    padding: 0px 0 0px;
+    padding: 90px 0 90px 0px;
+    margin: 0;
 }
 
-/* .works-content {
-    margin-top: 73px;
-} */
+.about {
+    padding: 20px;
+    margin: 0;
+}
 
-.works .containeer{
-    
+.about .container {
+    padding: 0;
+    margin: 0;
 }
 
 .section-header{
@@ -519,12 +524,12 @@ nav.navbar.bootsnav .navbar-toggle i {
     margin: 0;
 }
 
-.section-header img{
-    display: flex;
-    justify-content: start;
+.works-content {
+    margin-top: 73px;
 }
 
-/* .single-how-works {
+
+.single-how-works {
     text-align: center;
     padding: 50px 42px;
     border-radius: 3px;
@@ -604,13 +609,13 @@ nav.navbar.bootsnav .navbar-toggle i {
 .single-how-works:hover {
     box-shadow: 0 0px 10px rgba(71, 71, 71, .4);
     background: #ff545a;
-} */
+}
 
 /*-------------------------------------
         7. Explore
 --------------------------------------*/
 .explore {
-    padding: 117px 0 95px;
+    padding: 100px 0 90px;
     background: #f8fafb;
 }
 
