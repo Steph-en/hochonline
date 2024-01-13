@@ -323,7 +323,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     background-size: cover;
     text-align: center;
     /* height: 800px; */
-    height: 60vh;
+    height: 50vh;
     z-index: 1;
 }
 .welcome-hero.contact {
@@ -349,7 +349,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .welcome-hero-txt {
-    padding-top: 12em;
+    padding-top: 10em;
 }
 
 .welcome-hero-txt h2 {
@@ -500,7 +500,7 @@ nav.navbar.bootsnav .navbar-toggle i {
         7. Explore
 --------------------------------------*/
 .explore {
-    padding: 100px 0 90px;
+    padding: 50px 0 90px;
     background: #f8fafb;
 }
 
