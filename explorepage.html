@@ -16,7 +16,7 @@
   <title>Hoch Online | Home</title>
 
   <!-- For favicon png -->
-  <link rel="shortcut icon" type="image/icon" href="assets/favicon_io/favicon.ico" />
+  <link class="venobox" rel="shortcut icon" type="image/icon" href="assets/favicon_io/favicon.ico" />
 
   <!--font-awesome.min.css-->
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -44,7 +44,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link rel="stylesheet" class="venobox" href="assets/venobox/dist/venobox.min.css" type="text/css" media="screen">
 
   <!--responsive.css-->
   <link rel="stylesheet" href="assets/css/responsive.css">
@@ -102,13 +102,13 @@
                 <img src="assets/images/buldings/megaville-eastlegon/ps curtis-43.jpg" style="width: 26em; height: 20em;"
                   alt="explore image">
                 <div class="single-explore-img-info">
-                  <button onclick="window.location.href='#'">best rated</button>
+                  <button onclick="window.location.href=''">best rated</button>
                   <div class="single-explore-image-icon-box">
                     <ul>
                       <li>
-                        <a href="/assets/images/buldings/megaville-eastlegon/A-240.jpg" class="venobox">
-                          <i class="fa fa-arrows-alt"></i>
+                        <a class="venobox fa fa-arrows-alt" href="/assets/images/buldings/megaville-eastlegon/A-240.jpg">
                         </a>
+                        <!-- <i class="fa fa-arrows-alt"></i> -->
                       </li>
                     </ul>
                   </div>
@@ -127,21 +127,15 @@
                         designed to bring comfort, uniquely crafted with elegance and a touch of
                         prestige.
                       </p>
-                      <br>
+                      <br> <br>
                     </div>
                   </div>
                 </div>
                 <div class="explore-open-close-part">
                   <div class="row">
+                    <br>
                     <div class="col-sm-5">
                       <button class="close-btn open-btn" onclick="window.location.href='#'">Available</button>
-                    </div>
-                    <div class="col-sm-7">
-                      <div class="explore-map-icon">
-                        <a href="#"><i data-feather="map-pin"></i></a>
-                        <a href="#"><i data-feather="upload"></i></a>
-                        <a href="#"><i data-feather="heart"></i></a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -179,20 +173,15 @@
                         charm and contemporary finesse. You will be captivated by the symphony of elegance and design
                         that unfolds before you.
                       </p>
+                      <br>
                     </div>
                   </div>
                 </div>
                 <div class="explore-open-close-part">
                   <div class="row">
+                    <br>
                     <div class="col-sm-5">
                       <button class="close-btn open-btn" onclick="window.location.href='#'">Available</button>
-                    </div>
-                    <div class="col-sm-7">
-                      <div class="explore-map-icon">
-                        <a href="#"><i data-feather="map-pin"></i></a>
-                        <a href="#"><i data-feather="upload"></i></a>
-                        <a href="#"><i data-feather="heart"></i></a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -210,7 +199,7 @@
                   <div class="single-explore-image-icon-box">
                     <ul>
                       <li>
-                        <a href="./assets/images/buldings/espheights-eastlegon/BANQUET HALLS.jpeg" class="venobox">
+                        <a href="assets/images/buldings/espheights-eastlegon/banquet hall on second floor.jpeg" class="venobox">
                           <i class="fa fa-arrows-alt"></i>
                         </a>
                       </li>
@@ -230,21 +219,15 @@
                         ESP HEIGHTS, a contemporary 9-storey facility in Labone, Accra, offers modern amenities like
                         shopping centers, suites, private gym, spa, restaurants, bars, and a pool.
                       </p>
-                      <br>
+                      <br> <br>
                     </div>
                   </div>
                 </div>
                 <div class="explore-open-close-part">
                   <div class="row">
+                    <br>
                     <div class="col-sm-5">
                       <button class="close-btn open-btn" onclick="window.location.href='#'">Available</button>
-                    </div>
-                    <div class="col-sm-7">
-                      <div class="explore-map-icon">
-                        <a href="#"><i data-feather="map-pin"></i></a>
-                        <a href="#"><i data-feather="upload"></i></a>
-                        <a href="#"><i data-feather="heart"></i></a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -304,6 +287,10 @@
       </div>
     </div>
   </footer>
+
+  <!-- venobox -->
+  <script src="assets/js/script.js"></script>
+  <script type="text/javascript" src="assets/venobox/dist/venobox.min.js"></script>
 
   <script src="assets/js/jquery.js"></script>
 
