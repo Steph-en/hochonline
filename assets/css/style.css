@@ -396,47 +396,41 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 #works.about1 .section-header {
-    /* background-color: url('../../assets/images/buldings/MEGAVILLE-eastcant.pdf/A-9.jpg'); */
     background-image: url('../../assets/images/buldings/MEGAVILLE-eastcant.pdf/A-9.jpg');
     background-position: center;
     background-size: cover;
     /* background-position-y: 70%; */
     height: 350px;
 }
-#works1 .section-header{
-    /* background-color: url('../../assets/images/buldings/MEGAVILLE-eastcant.pdf/A-9.jpg'); */
-    background-image: url('../../assets/images/buldings/megaville-eastlegon/A-75.jpg');
+#works1 .section-header {
+    background-image: url('../../assets/images/buldings/espheights-eastlegon/ROOMS.jpeg');
     background-position: center;
     background-size: cover;
     /* background-position-y: 70%; */
     height: 350px;
 }
-#works2 .section-header{
-    /* background-color: url('../../assets/images/buldings/MEGAVILLE-eastcant.pdf/A-9.jpg'); */
+#works2 .section-header {
     background-image: url('../../assets/images/buldings/future-starlight/4.png');
     background-position: center;
     background-size: cover;
     /* background-position-y: 70%; */
     height: 350px;
 }
-#works3 .section-header{
-    /* background-color: url('../../assets/images/buldings/MEGAVILLE-eastcant.pdf/A-9.jpg'); */
+#works3 .section-header {
     background-image: url('../../assets/images/buldings/future-starlight/7.png');
     background-position: center;
     background-size: cover;
     /* background-position-y: 70%; */
     height: 350px;
 }
-#works4 .section-header{
-    /* background-color: url('../../assets/images/buldings/MEGAVILLE-eastcant.pdf/A-9.jpg'); */
-    background-image: url('../../assets/images/buldings/megaville-eastlegon/A-75.jpg');
+#works4 .section-header {
+    background-image: url('../../assets/images/buldings/espheights-eastlegon/LOBBY\ OF\ GROUND\ FLOORS.jpeg');
     background-position: center;
     background-size: cover;
     /* background-position-y: 70%; */
     height: 350px;
 }
-#works5 .section-header{
-    /* background-color: url('../../assets/images/buldings/MEGAVILLE-eastcant.pdf/A-9.jpg'); */
+#works5 .section-header {
     background-image: url('../../assets/images/consultant/mediensturmer-aWf7mjwwJJo-unsplash.jpg');
     background-position: center;
     background-size: cover;
