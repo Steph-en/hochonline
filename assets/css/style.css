@@ -273,7 +273,7 @@ nav.navbar.bootsnav ul.nav>li.dropdown span {
 }
 
 .wrap-sticky nav.navbar.bootsnav.sticked ul.nav>li>a {
-    padding: 34px 21px; 
+    padding: 34px 21px;
 }
 
 /*.nav li*/
@@ -326,6 +326,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     height: 50vh;
     z-index: 1;
 }
+
 .welcome-hero.contact {
     position: relative;
     background: url(../images/buldings/future-starlight/1.png)no-repeat;
@@ -392,49 +393,48 @@ nav.navbar.bootsnav .navbar-toggle i {
 .works {
     padding: 90px 0 90px 0px;
     margin: 0;
-    
+
 }
 
 #works.about1 .section-header {
     background-image: url('../../assets/images/buldings/MEGAVILLE-eastcant.pdf/A-9.jpg');
     background-position: center;
     background-size: cover;
-    /* background-position-y: 70%; */
     height: 350px;
 }
+
 #works1 .section-header {
     background-image: url('../../assets/images/buldings/espheights-eastlegon/ROOMS.jpeg');
     background-position: center;
     background-size: cover;
-    /* background-position-y: 70%; */
     height: 350px;
 }
+
 #works2 .section-header {
     background-image: url('../../assets/images/buldings/future-starlight/4.png');
     background-position: center;
     background-size: cover;
-    /* background-position-y: 70%; */
     height: 350px;
 }
+
 #works3 .section-header {
     background-image: url('../../assets/images/buldings/future-starlight/7.png');
     background-position: center;
     background-size: cover;
-    /* background-position-y: 70%; */
     height: 350px;
 }
+
 #works4 .section-header {
     background-image: url('../../assets/images/buldings/espheights-eastlegon/LOBBY\ OF\ GROUND\ FLOORS.jpeg');
     background-position: center;
     background-size: cover;
-    /* background-position-y: 70%; */
     height: 350px;
 }
+
 #works5 .section-header {
     background-image: url('../../assets/images/consultant/mediensturmer-aWf7mjwwJJo-unsplash.jpg');
     background-position: center;
     background-size: cover;
-    /* background-position-y: 70%; */
     height: 350px;
 }
 
@@ -443,7 +443,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     margin: 0;
 }
 
-.about img{
+.about img {
     height: 600px;
     background-position: center;
 }
@@ -453,7 +453,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     margin: 0;
 }
 
-.section-header{
+.section-header {
     padding: 0;
     margin: 0;
 }
@@ -552,13 +552,14 @@ nav.navbar.bootsnav .navbar-toggle i {
         7. Explore
 --------------------------------------*/
 .explore {
-    padding: 50px 0 90px;
+    padding: 60px 0 60px;
+        margin: 0;
     background: #f8fafb;
 }
 
-.explore-content {
-    margin-top: 78px;
-}
+/* .explore-content {
+    margin: 78px;
+} */
 
 .single-explore-item {
     min-height: 629px;
@@ -711,16 +712,6 @@ nav.navbar.bootsnav .navbar-toggle i {
     border-bottom: 1px solid #e1e5eb;
 }
 
-.explore-person-img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
-.explore-person p {
-    font-size: 12px;
-}
-
 .explore-open-close-part {
     margin-top: 20px;
 }
@@ -756,130 +747,6 @@ nav.navbar.bootsnav .navbar-toggle i {
 .single-explore-item:hover {
     box-shadow: 0 10px 20px rgba(21, 19, 19, .2);
 }
-
-/*-------------------------------------
-        8. Reviews
---------------------------------------*/
-.reviews {
-    padding: 117px 0 75px;
-}
-
-.reviews-content {
-    margin-top: 36px;
-}
-
-/*single-testimonial-box */
-.single-testimonial-box {
-    padding: 50px 30px;
-    box-shadow: 0 0px 5px rgba(71, 71, 71, .2);
-    overflow-x: hidden;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -ms-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
-}
-
-.single-testimonial-box:hover {
-    box-shadow: 0 10px 20px rgba(21, 19, 19, .2);
-}
-
-.slick-current .single-testimonial-box {
-    box-shadow: 0 10px 20px rgba(21, 19, 19, .2);
-}
-
-/*testimonial-description*/
-.single-testimonial-box {
-    width: 404px;
-    background: #fff;
-}
-
-/* testimonial-info */
-.testimonial-info {
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-}
-
-.testimonial-img {
-    position: relative;
-    top: 11px;
-    margin-right: 5px;
-    border-radius: 50%;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -ms-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
-}
-
-.testimonial-person {
-    margin-left: 15px;
-    margin-top: 11px;
-}
-
-.testimonial-person h2 {
-    color: #505866;
-    font-size: 18px;
-}
-
-.testimonial-person h4 {
-    color: #a2a5ab;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 10px;
-}
-
-.testimonial-person-star i {
-    color: #ffda2b;
-    margin: 9px 4px 0 0;
-}
-
-/* testimonial-info */
-
-
-/* testimonial-comment */
-.testimonial-comment {
-    margin-top: 18px;
-}
-
-.testimonial-comment p {
-    color: #8d939e;
-    font-size: 14px;
-    font-weight: 300;
-}
-
-/* testimonial-comment */
-
-
-/*.slick-slide*/
-.slick-initialized .slick-slide {
-    display: block;
-    padding: 40px 0;
-}
-
-.slick-slide.slick-cloned {
-    outline: 0 !important;
-}
-
-.slick-slide {
-    margin: 0px 10px;
-}
-
-.slick-slide {
-    transition: all ease-in-out .3s;
-    opacity: .5;
-}
-
-.slick-active {
-    opacity: .5;
-}
-
-.slick-current {
-    opacity: 1;
-}
-
-/*.slick-slide*/
 
 /*-------------------------------------       
         9.  Counter
