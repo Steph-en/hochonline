@@ -553,7 +553,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 --------------------------------------*/
 .explore {
     padding: 60px 0 80px;
-        margin: 0;
+    margin: 0;
     background: #f8fafb;
 }
 
@@ -706,6 +706,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 #modal {
     border: 5px solid;
 }
+
 .explore-person {
     padding-bottom: 28px;
     border-bottom: 1px solid #e1e5eb;
@@ -747,6 +748,22 @@ nav.navbar.bootsnav .navbar-toggle i {
     box-shadow: 0 10px 20px rgba(21, 19, 19, .2);
 }
 
+.carousel.slide.container {
+    position: fixed;
+    margin: auto;
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    border: 1px solid #373737;
+}
+
+.carousel.slide.container::backdrop {
+    color: #3c3c3c;
+    opacity: .5;
+}
+
+.
 /*-------------------------------------       
         9.  Counter
 --------------------------------------*/
@@ -1103,108 +1120,5 @@ nav.navbar.bootsnav .navbar-toggle i {
 
     100% {
         bottom: 7px;
-    }
-}
-/* Slideshow container */
-.slideshow-container1 {
-    max-width: 80%;
-    position: relative;
-    margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides1 {
-    display: none;
-}
-
-/* Next & previous buttons */
-.prev1,
-.next1 {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next1 {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev1:hover,
-.next1:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text1 {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext1 {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot1 {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active1,
-.dot1:hover {
-    background-color: #717171;
-}
-
-/* Fading animation */
-.fade1 {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade1 {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-
-    .prev1,
-    .next1,
-    .text1 {
-        font-size: 11px
     }
 }
