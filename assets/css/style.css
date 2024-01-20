@@ -748,7 +748,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     box-shadow: 0 10px 20px rgba(21, 19, 19, .2);
 }
 
-.carousel.slide.container {
+/* .carousel.slide.container {
     position: fixed;
     margin: auto;
     border: 1px solid #373737;
@@ -758,6 +758,8 @@ nav.navbar.bootsnav .navbar-toggle i {
     color: #3c3c3c;
     opacity: .5;
 }
+
+*/
 
 /*-------------------------------------       
         9.  Counter
