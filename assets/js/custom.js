@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	});
 
 	// Dialog
-	const modal = document.getElementById("carousel-example-generic1");
+	const modal = document.getElementById("carousel-example-generic");
 	const openModal = document.querySelector("button.close-btn.open-btn.open-modal");
 
 	openModal.addEventListener('click', () => {
