@@ -1,0 +1,10 @@
+#carousel{
+    height: 60em;
+}
+
+@media only screen and (max-width: 800px) {
+ 
+    #carousel {
+      height: 50vh;
+    }
+    }
