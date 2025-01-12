@@ -225,7 +225,7 @@ nav.navbar.bootsnav {
 
 .navbar-header a.navbar-brand span {
     display: inline-block;
-    color: #ff545a;
+    color: rgb(207, 161, 95);;
     text-transform: capitalize;
 }
 
@@ -256,11 +256,11 @@ nav.navbar.bootsnav ul.nav>li>a {
 
 nav.navbar.bootsnav ul.nav>li>a:hover,
 nav.navbar.bootsnav ul.nav>li>a:focus {
-    color: #ff545a;
+    color: rgb(207, 161, 95);;
 }
 
 nav.navbar.bootsnav ul.nav>li.active>a {
-    color: #ff545a;
+    color: rgb(207, 161, 95);;
 }
 
 nav.navbar.bootsnav ul.nav>li.dropdown>a.dropdown-toggle:after {
@@ -293,7 +293,7 @@ nav.navbar.bootsnav ul.nav>li.dropdown span {
 }
 
 .menu-ui-design::-webkit-scrollbar-thumb {
-    background-color: #ff545a;
+    background-color: rgb(207, 161, 95);
 }
 
 /*.menu-ui-design*/
@@ -302,13 +302,13 @@ nav.navbar.bootsnav ul.nav>li.dropdown span {
 nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
-    border: 1px solid #ff545a;
+    border: 1px solid rgb(207, 161, 95);
     padding: 10px;
     top: 0;
 }
 
 nav.navbar.bootsnav .navbar-toggle i {
-    color: #ff545a;
+    color: rgb(207, 161, 95);
 }
 
 /*.navbar-toggle */
@@ -353,7 +353,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding-top: 10em;
 }
 
-.welcome-hero-txt h2 {
+.welcome-hero-txt h1 {
     font-size: 70px;
     color: #fff;
     font-weight: 700;
@@ -514,7 +514,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 .single-how-works:hover .single-how-works-icon [class*=" flaticon-"]:before,
 .single-how-works:hover .single-how-works-icon [class^="flaticon-"]:after,
 .single-how-works:hover .single-how-works-icon [class*=" flaticon-"]:after {
-    color: #ff545a;
+    color: rgb(207, 161, 95);
 }
 
 .welcome-hero-btn.how-work-btn {
@@ -540,12 +540,12 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .single-how-works:hover .welcome-hero-btn.how-work-btn {
     background: #fff;
-    color: #ff545a;
+    color: rgb(207, 161, 95);
 }
 
 .single-how-works:hover {
     box-shadow: 0 0px 10px rgba(71, 71, 71, .4);
-    background: #ff545a;
+    background: rgb(207, 161, 95);
 }
 
 /*-------------------------------------
@@ -612,7 +612,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     width: 83px;
     height: 21px;
     line-height: 21px;
-    background: #ff545a;
+    background: rgb(207, 161, 95);
     border-radius: 3px;
     color: #fcfcfc;
     text-transform: capitalize;
@@ -692,7 +692,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .explore-price {
-    color: #f63138;
+    color: rgb(207, 161, 95);
 }
 
 .explore-price-box {
@@ -717,7 +717,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .close-btn {
-    color: #f63138;
+    color: rgb(207, 161, 95);
     text-transform: capitalize;
 }
 
@@ -737,7 +737,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .explore-map-icon a svg:hover {
-    color: #f63138;
+    color: rgb(207, 161, 95);
 }
 
 .single-explore-txt.bg-theme-2 .explore-map-icon a svg:hover {
@@ -856,7 +856,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .single-blog-item:hover h2 a {
-    color: #ff545a;
+    color: rgb(207, 161, 95);
 }
 
 .single-blog-item:hover {
@@ -930,7 +930,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     position: absolute;
     top: 0;
     right: 0;
-    background: #ff545a;
+    background: rgb(207, 161, 95);
     display: inline-block;
     width: 180px;
     height: 60px;
@@ -960,7 +960,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .appsLand-btn:hover {
     box-shadow: 0 5px 10px rgba(71, 71, 71, .4);
-    background: #f43032;
+    background: rgb(207, 161, 95);
 }
 
 /*appsLand-btn*/
@@ -1003,7 +1003,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .footer-menu ul.footer-menu-item li a:hover {
-    color: #f43032;
+    color: rgb(207, 161, 95);
 }
 
 .hm-footer-copyright {
@@ -1057,11 +1057,11 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .footer-social span:hover {
-    color: #ff545a;
+    color: rgb(207, 161, 95);
 }
 
 .footer-social a:hover {
-    background: #ff545a;
+    background: rgb(207, 161, 95);
     color: #fff;
 }
 
@@ -1080,8 +1080,8 @@ nav.navbar.bootsnav .navbar-toggle i {
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background: #ff545a;
-    border: 1px solid #ff545a;
+    background: rgb(207, 161, 95);
+    border: 1px solid rgb(207, 161, 95);
     border-radius: 50%;
     -webkit-transition: .5s;
     -moz-transition: .5s;
@@ -1092,8 +1092,8 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 #scroll-Top .return-to-top:hover {
-    background: #f43032;
-    border: 1px solid #ff545a;
+    background: rgb(234, 187, 121);
+    border: 1px solid rgb(207, 161, 95);
 }
 
 #scroll-Top .return-to-top i {
