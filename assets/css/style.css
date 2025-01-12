@@ -72,7 +72,6 @@ ul {
 
 ul li {
     list-style: none;
-
 }
 
 select,
@@ -489,12 +488,12 @@ nav.navbar.bootsnav .navbar-toggle i {
     border-radius: 50%;
 }
 
-.single-how-works h2 a {
+.single-how-works h3 a {
     font-size: 18px;
     margin: 35px 0 20px;
 }
 
-.single-how-works h2 a span {
+.single-how-works h3 a span {
     text-transform: lowercase;
 }
 
@@ -529,7 +528,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     border-radius: 3px;
 }
 
-.single-how-works:hover h2 a,
+.single-how-works:hover h3 a,
 .single-how-works:hover p {
     color: #fff;
 }
