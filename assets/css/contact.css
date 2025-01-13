@@ -43,7 +43,7 @@ body header .nav-container .navbar #logo {
   gap: 4px;
   letter-spacing: 2px;
   background-color: white;
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 body header .nav-container .navbar .material-symbols-rounded.menu {
